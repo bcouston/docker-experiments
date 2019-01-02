@@ -6,5 +6,10 @@ pipeline {
         input 'Approve?'
       }
     }
+    stage('Stage 2') {
+      steps {
+        sh 'pwd'
+      }
+    }
   }
 }
